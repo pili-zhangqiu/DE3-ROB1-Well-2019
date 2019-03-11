@@ -99,5 +99,5 @@ Blah blah blah
 ## Useful Resources
 ---
 ## Bibliography
-http://kumarakshay.me/images/mykdl/baxter-kdl-project.pdf\
+http://kumarakshay.me/images/mykdl/baxter-kdl-project.pdf  
 https://www.ohio.edu/mechanical-faculty/williams/html/pdf/BaxterKinematics.pdf
