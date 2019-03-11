@@ -17,8 +17,8 @@ Blah blah blah
 ## Contents
 ### 01 Setting Up Workstation
 **Setting up DENIRO & Worsktation** -------- Ric
-> - [ ] Downloading Scripts and Installation of Packages
-> - [ ] Setting up and Connecting to Baxter
+> - [x] Downloading Scripts and Installation of Packages
+> - [x] Setting up and Connecting to Baxter
 
 ### 02 Project Development
 **Milestone 01 - Running Pick and Place in Gazebo**
