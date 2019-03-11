@@ -59,9 +59,7 @@ class PickAndPlace(object):
         self._rs.enable()
 
     def move_to_start(self, start_angles=None):
-
         print("Moving the {0} arm to start pose...".format(self._limb_name))
-
         if not start_angles:
             start_angles = dict(zip(self._joint_names, [0]*7))
         self._guarded_move_to_joint_position(start_angles)
@@ -145,6 +143,7 @@ class PickAndPlace(object):
         approach = copy.deepcopy(pose)
 
         # approach with a pose the hover-distance above the requested pose
+        # If approaching the spawn location, maintain the z-position to avoid colliding with other bricks
 
         if to_spawn:
             approach.position.z=self._limb.endpoint_pose()['position'].z
@@ -158,7 +157,7 @@ class PickAndPlace(object):
 
 
 
-    def _retract(self):
+    def _retract(self): 
 
         # retrieve current pose from endpoint
 
@@ -188,7 +187,7 @@ class PickAndPlace(object):
 
 
 
-    def _servo_to_pose(self, pose):
+    def _servo_to_pose(self, pose):  #function to move directly to a desired pose
 
         # servo down to release
 
@@ -200,7 +199,7 @@ class PickAndPlace(object):
         self._approach(pose)
         self._servo_to_pose(pose)
 
-    def pick(self, pose):
+    def pick(self, pose): #function to pick a brick up at a specific pose
         # open the gripper
         self.gripper_open()
         # servo above pose
@@ -209,14 +208,17 @@ class PickAndPlace(object):
         self._servo_to_pose(pose)
         # close gripper
         self.gripper_close()
-        gripped = False
-        gripcount = 0
+        
+        #Detects if the gripper action actually succeeds in gripping an object
+        gripped = False #Boolean for whether the gripper grips an object
+        gripcount = 0 #count for how many grip attempts were done.
         #print(self._gripper.position())
         while gripped == False:
             #print("Failed to grip, trying again...")
             gripcount += 1
-
             if self._gripper.position() < 4.5 and gripcount < 2:
+                 #If the brick is picked up, the position will be a certain threshold value. If it is not picked up, the position will be very small.
+		         #So if the gripper is below the threshold value, it failed to grip a brick, so retry gripping. Also only try a certain number of times.
                 self.gripper_open()
                 time.sleep(5)
                 self.gripper_close()
@@ -229,29 +231,14 @@ class PickAndPlace(object):
 
 
 
-    def place(self, pose):
+    def place(self, pose): #function to approach at a certain z-offset then move down and place an object
 
-        #start = [0.75, 0, -0.17]
-        #end = [pose.position.x, pose.position.y, pose.position.z]
-
-        #path = plan_path(start, end)
         self._approach(pose, to_spawn=False)
-        # servo above pose
 
-        #for i in range(1,len(path)):
-        #    stop_point = Pose(position=Point(x=path[i,0],y=path[i,1],z=path[i,2]),orientation=pose.orientation)
-        #    print(stop_point.position)
-        #    self._servo_to_pose(stop_point)
-        # servo to pose
         self._servo_to_pose(pose)
-        #current_pose = self._limb.endpoint_pose()
-        #if current_pose['position'].x != pose.position.x:
-        #    print("repositioning")
-        #    time.sleep(3)
-        #    self._servo_to_pose(pose)
-        # open the gripper
+
         self.gripper_open()
-        # retract to clear object
+        
         self._retract()
 
 
@@ -403,15 +390,15 @@ exitFlag = 0
 
 class myThread (threading.Thread):
 
-    def __init__(self, threadID, arm_name):
-        super (myThread, self).__init__()
+    def __init__(self, threadID, arm_name): 
+        super (myThread, self).__init__() #initialise threads
         threading.Thread.__init__(self)
-        self.threadID = threadID
-        self.arm_name = arm_name
+        self.threadID = threadID #two threads will be running, IDs are 1 and 2
+        self.arm_name = arm_name #one thread per arm
 
-    def run(self):
+    def run(self): #run both arms
         if self.arm_name == "left":
-            master_l(spwan_loc, brick_l)
+            master_l(spwan_loc, brick_l) 
         if self.arm_name == "right":
             master_r(spwan_loc_r, brick_r)
         else:
@@ -419,13 +406,7 @@ class myThread (threading.Thread):
 
 def main():
 
-    rospy.init_node("ik_pick_and_place_demo")
-
-    #rospy.wait_for_message("/robot/sim/started", Empty)
-
-    #load_table()
-    #load_brick_l(-1)
-    #load_brick_r(-2)
+    rospy.init_node("ik_pick_and_place_demo") #set up the node
 
     left_arm = 'left'
     right_arm = 'right'
@@ -443,26 +424,23 @@ def main():
                              w=0.00486450832011)
 
     a,b,g = euler_from_quaternion([-0.0249590815779,0.999649402929,0.00737916180073,0.00486450832011])
-    quat_r = quaternion_from_euler(a,-b,-g)
-    overhead_orientation_r = Quaternion(x=quat_r[0],y=quat_r[1],z=quat_r[2],w=quat_r[3])
+    quat_r = quaternion_from_euler(a,-b,-g) #right arm quaternion is mirrored about pitch and yaw 
+    overhead_orientation_r = Quaternion(x=quat_r[0],y=quat_r[1],z=quat_r[2],w=quat_r[3]) #set up the quaternion for right arm
 
     global spwan_loc
     global spwan_loc_r
     global brick_l
-    global brick_r
-
-    y_offset = 0.015
-    x_offset = 0.03
-
+    global brick_r #global the variable to be used in threading functions
+    
     spwan_loc = Pose(
 
-        position=Point(x=0.5+x_offset, y=0.6+y_offset, z=-0.17),
+        position=Point(x=0.515, y=0.63, z=-0.17),
         orientation= overhead_orientation)
 
     spwan_loc_r = Pose(
 
         position=Point(x=0.5+x_offset, y=-0.57, z=-0.17),
-        orientation= overhead_orientation_r)
+        orientation= overhead_orientation_r) #set spawn locations for both left arm and right arm
 
     starting_joint_angles_l = {'left_w0': 0.6699952259595108,
 
@@ -474,9 +452,9 @@ def main():
 
                          'left_e1': 1.9400238130755056-0.3,
 
-                         'left_s0': -0.08000397926829805+0.5,
+                         'left_s0': 0.41999602073,
 
-                         'left_s1': -0.9999781166910306-0.5}
+                         'left_s1': -1.49997811669} #set starting left arm position
 
     starting_joint_angles_r = {'right_w0': 0,
 
@@ -490,7 +468,7 @@ def main():
 
                          'right_s0': -1.5,
 
-                         'right_s1': -0.7}
+                         'right_s1': -0.7} #set intermediate right arm starting position, this is because gazebo sometimes execute joint rotations in the wrong way
 
     starting_joint_angles_r_2 = {'right_w0': 0.6699952259595108,
 
@@ -502,36 +480,36 @@ def main():
 
                  'right_e1': 1.9400238130755056,
 
-                 'right_s0': 0.08000397926829805-0.5,
+                 'right_s0': -0.41999602073,
 
-                 'right_s1': -0.9999781166910306-0.5}
+                 'right_s1': -1.49997811669} #set final right arm starting position
 
 
-    brick_all = calculate_brick_locations_dual()
+    brick_all = calculate_brick_locations_dual() 
     brick_l = brick_all[0]
-    brick_r = brick_all[1]
+    brick_r = brick_all[1] #load final brick locations for both arms individually
 
     global master_l
     global master_r
-    pnp_r = PickAndPlace(right_arm, hover_distance)
-    pnp_l = PickAndPlace(left_arm, hover_distance)
+    
+    pnp_r = PickAndPlace(right_arm, hover_distance) 
+    pnp_l = PickAndPlace(left_arm, hover_distance) # initialise both arms 
     pnp_r.move_to_start(starting_joint_angles_r)
 
     pnp_r.move_to_start(starting_joint_angles_r_2)
-    pnp_l.move_to_start(starting_joint_angles_l)
+    pnp_l.move_to_start(starting_joint_angles_l) # move both arms to their starting positions
 
-    def master_r(spwan_loc_r,brick_r):
+    def master_r(spwan_loc_r,brick_r): # function to execute the entire pick and place for the right arm
         for i in range(len(brick_r)):
             pose = Pose(
         position=Point(x=brick_r[i,0], y=brick_r[i,1], z=brick_r[i,2]),
-        orientation=Quaternion(x=brick_r[i,3],y=brick_r[i,4],z=brick_r[i,5],w=brick_r[i,6]))
+        orientation=Quaternion(x=brick_r[i,3],y=brick_r[i,4],z=brick_r[i,5],w=brick_r[i,6])) 
             pnp_r.pick(spwan_loc_r)
             time.sleep(0.5)
             pnp_r.place(pose)
-            time.sleep(0.5)
-            #load_brick_r(i)
+            time.sleep(0.5) # 
 
-    def master_l(spwan_loc,brick_l):
+    def master_l(spwan_loc,brick_l): # function to execute the entire pick and place for the left arm
         for i in range(len(brick_l)):
             if i == 2:
                 time.sleep(15)
@@ -543,24 +521,13 @@ def main():
             pnp_l.place(pose)
             time.sleep(0.5)
 
-
-            #load_brick_l(10*(i+1))
-
-    thread1 = myThread(1, "left")
+    thread1 = myThread(1, "left") # initialise threads
     thread2 = myThread(2, "right")
 
-    #thread1.daemon = True
-    #thread2.daemon = True
-
-    thread1.start()
+    thread1.start() # start both threads
     thread2.start()
 
     return 0
-
-global master_l
-global master_r
-
-
 
 if __name__ == '__main__':
 
