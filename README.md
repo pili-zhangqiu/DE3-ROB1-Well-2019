@@ -16,37 +16,36 @@ Blah blah blah
 ---
 ## Contents
 ### 01 Setting Up Workstation
- **Setting up DENIRO & Worsktation** -------- Ric
- - [ ] Downloading Scripts and Installation of Packages
- - [ ] Setting up and Connecting to Baxter
+> **Setting up DENIRO & Worsktation** -------- Ric
+> - [ ] Downloading Scripts and Installation of Packages
+> - [ ] Setting up and Connecting to Baxter
 
 ### 02 Project Development
-
- **Milestone 01 - Running Pick and Place in Gazebo**
- - SUMMARY
- - EXPLANATION
-   - [ ] Pick and Place Demo scripts -------- Jacob
-   - [ ] Editing the code to spawn the brick instead of a block -------- Hugo
- - CHALLENGES
-   - [ ] Correcting brick physics (CoM and friction) -------- Hugo
-   - [ ] Gripper width -------- Pilar
-   - [ ] Stopping DENIRO's unwanted movement -------- Jacob
- - EXECUTION
-   - [ ] Running demo in Gazebo -------- Ric
-- TROUBLESHOOTING
+**Milestone 01 - Running Pick and Place in Gazebo**
+> - SUMMARY
+> - EXPLANATION
+>   - [ ] Pick and Place Demo scripts -------- Jacob
+>   - [ ] Editing the code to spawn the brick instead of a block -------- Hugo
+> - CHALLENGES
+>   - [ ] Correcting brick physics (CoM and friction) -------- Hugo
+>   - [ ] Gripper width -------- Pilar
+>   - [ ] Stopping DENIRO's unwanted movement -------- Jacob
+> - EXECUTION
+>   - [ ] Running demo in Gazebo -------- Ric
+> - TROUBLESHOOTING
 
 **Milestone 02 - Building a Well using DENIRO (Single Arm)**
- - SUMMARY
- - EXPLANATION
-   - [ ] Well Plan and Brick Positions for Single Arm -------- Hugo/Omer
-   - [ ] IK Motion Planning for Single Arm -------- Ryan
-   - [ ] Quaternion - Mapping the cartesian space to the joint space / Finding the right quaternion -------- Jacob
-   - [ ] Redundancy Reduction -------- Ryan\
- - CHALLENGES
-   - [ ] Solving Overshooting when Moving to the Spawn Location (Single Arm) -------- Ric
-   - [ ] Enhancing Motion Planning: Curvature in the Motion Planning -------- Ric\
- - EXECUTION
- - TROUBLESHOOTING
+> - SUMMARY
+> - EXPLANATION
+>   - [ ] Well Plan and Brick Positions for Single Arm -------- Hugo/Omer
+>   - [ ] IK Motion Planning for Single Arm -------- Ryan
+>   - [ ] Quaternion - Mapping the cartesian space to the joint space / Finding the right quaternion -------- Jacob
+>   - [ ] Redundancy Reduction -------- Ryan\
+> - CHALLENGES
+>   - [ ] Solving Overshooting when Moving to the Spawn Location (Single Arm) -------- Ric
+>   - [ ] Enhancing Motion Planning: Curvature in the Motion Planning -------- Ric\
+> - EXECUTION
+> - TROUBLESHOOTING
 
 > **Milestone 03 - Building a Well using DENIRO (Dual Arm)**
 > SUMMARY\
