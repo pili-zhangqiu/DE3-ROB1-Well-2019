@@ -93,8 +93,7 @@ Blah blah blah
 >
 >EXPLANATION
 >- [ ] Solution 1: Force Sensing -------- Ryan
->- [ ] Solution 2: Distance Gripped -------- Ric
->- [ ] Solution Implementation -------- Ric
+>- [x] Solution 2: Distance Gripped and implimentation -------- Ric
 >
 >CHALLENGES
 >
