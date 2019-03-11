@@ -290,7 +290,7 @@ def main():
     the loop.
     """
     
-	rospy.init_node("ik_pick_and_place_demo") # Initialise the node for subscribing to and utilising topics and services.
+    rospy.init_node("ik_pick_and_place_demo") # Initialise the node for subscribing to and utilising topics and services.
 
     brick_locations = calculate_brick_locations() # Execute the utility function to calculate the brick positions for the well.
 
