@@ -34,7 +34,7 @@ Blah blah blah
 >- [ ] Stopping DENIRO's unwanted movement -------- Jacob  
 >
 >EXECUTION  
->- [ ] Running demo in Gazebo -------- Ric  
+>- [x] Running demo in Gazebo -------- Ric  
 >
 >TROUBLESHOOTING  
 
