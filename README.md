@@ -48,7 +48,7 @@ Blah blah blah
 >- [ ] Redundancy Reduction -------- Ryan
 >
 >CHALLENGES
->- [ ] Solving Overshooting when Moving to the Spawn Location (Single Arm) -------- Ric
+>- [x] Solving Overshooting when Moving to the Spawn Location (Single Arm) -------- Ric
 >- [ ] Enhancing Motion Planning: Curvature in the Motion Planning -------- Ric
 >
 >EXECUTION
