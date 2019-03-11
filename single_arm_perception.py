@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # Copyright (c) 2013-2015, Rethink Robotics
+# Edited by: DE-ROB1-Well Group, 11/03/2019, Imperial College London
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
