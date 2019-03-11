@@ -25,7 +25,7 @@ Blah blah blah
 >  SUMMARY  
 >  EXPLANATION  
 >- [ ] Pick and Place Demo scripts -------- Jacob  
->- [ ] Editing the code to spawn the brick instead of a block -------- Hugo  
+>- [ ] Editing the code to spawn the brick instead of a block -------- Hugo   
 >  CHALLENGES  
 >- [ ] Correcting brick physics (CoM and friction) -------- Hugo  
 >- [ ] Gripper width -------- Pilar  
