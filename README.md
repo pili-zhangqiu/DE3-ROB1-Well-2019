@@ -5,7 +5,6 @@ DENIRO is a Baxter robot which belongs to the Design Engineering department at I
 ## About the project
 Blah blah blah
 
----
 ## The Team
 - Hugo Hasted
 - Jacob Tan
@@ -25,7 +24,7 @@ Blah blah blah
 
 > **Milestone 01 - Running Pick and Place in Gazebo**
 > SUMMARY\
-> EXPLANATION
+>EXPLANATION
 > - [ ] Pick and Place Demo scripts -------- Jacob
 > - [ ] Editing the code to spawn the brick instead of a block -------- Hugo\
 > CHALLENGES
