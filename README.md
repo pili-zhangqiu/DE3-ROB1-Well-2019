@@ -13,10 +13,10 @@ Blah blah blah
 - Omer Quads
 - Richard Rui Zhang
 - Pilar Zhang Qiu
----
+
 ## Contents
 ### 01 Setting Up Workstation
-> **Setting up DENIRO & Worsktation** -------- Ric
+**Setting up DENIRO & Worsktation** -------- Ric
 > - [ ] Downloading Scripts and Installation of Packages
 > - [ ] Setting up and Connecting to Baxter
 
@@ -101,9 +101,9 @@ Blah blah blah
 >EXECUTION
 >
 >TROUBLESHOOTING
----
+
 ### 02 Project Specifications and Requirements
----
+
 ### 03 Trials and Errors - Working with Franka Emika Panda
 **Trial 01 - Using MoveIt with the RViz & Gazebo Implementation** -------- Pilar
 >- [ ] Introduction to MoveIt
@@ -115,8 +115,6 @@ Blah blah blah
 **Trial 02 - New IK Python Code** -------- Ryan
 >- [ ] Redundancy Reduction & Pseudoinverse Jacobian
 ---
-### 04 Project Management
----
 ## Useful Resources
----
+
 ## Bibliography
