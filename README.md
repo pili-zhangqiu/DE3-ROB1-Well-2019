@@ -3,7 +3,8 @@
 DENIRO is a Baxter robot which belongs to the Design Engineering department at Imperial College London. This repository contains the code and documentation needed to understand how to build a well with DENIRO.
 
 ## About the project
-(Blah blah blah)
+Blah blah blah
+
 ---
 ## The Team
 - Hugo Hasted
