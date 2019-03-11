@@ -48,10 +48,10 @@ Blah blah blah
 > - TROUBLESHOOTING
 
 > **Milestone 03 - Building a Well using DENIRO (Dual Arm)**
-> SUMMARY\
-> EXPLANATION
-> - [ ] Simultaneous Placement of Bricks (Multithreading) -------- Jacob\
-> CHALLENGES
+> - SUMMARY
+> - EXPLANATION
+>   - [ ] Simultaneous Placement of Bricks (Multithreading) -------- Jacob\
+> - CHALLENGES
 > - [ ] Well Plan and Brick Positions for Dual Arm -------- Hugo/Omer\
 > EXECUTION\
 > TROUBLESHOOTING
