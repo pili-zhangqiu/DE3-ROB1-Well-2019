@@ -22,39 +22,39 @@ DENIRO is a Baxter robot which belongs to the Design Engineering department at I
 
 ### 02 Project Development
 
-> **Milestone 01 - Running Pick and Place in Gazebo**\
+> **Milestone 01 - Running Pick and Place in Gazebo**
 > SUMMARY\
-> EXPLANATION\
+> EXPLANATION
 > - [ ] Pick and Place Demo scripts -------- Jacob
-> - [ ] Editing the code to spawn the brick instead of a block -------- Hugo
-> CHALLENGES\
+> - [ ] Editing the code to spawn the brick instead of a block -------- Hugo\
+> CHALLENGES
 > - [ ] Correcting brick physics (CoM and friction) -------- Hugo
 > - [ ] Gripper width -------- Pilar
-> - [ ] Stopping DENIRO's unwanted movement -------- Jacob
-> EXECUTION\
-> - [ ] Running demo in Gazebo -------- Ric
-> TROUBLESHOOTING\
+> - [ ] Stopping DENIRO's unwanted movement -------- Jacob\
+> EXECUTION
+> - [ ] Running demo in Gazebo -------- Ric\
+> TROUBLESHOOTING
 
 > **Milestone 02 - Building a Well using DENIRO (Single Arm)**
-> SUMMARY
+> SUMMARY\
 > EXPLANATION
 > - [ ] Well Plan and Brick Positions for Single Arm -------- Hugo/Omer
 > - [ ] IK Motion Planning for Single Arm -------- Ryan
 > - [ ] Quaternion - Mapping the cartesian space to the joint space / Finding the right quaternion -------- Jacob
-> - [ ] Redundancy Reduction -------- Ryan
+> - [ ] Redundancy Reduction -------- Ryan\
 > CHALLENGES
 > - [ ] Solving Overshooting when Moving to the Spawn Location (Single Arm) -------- Ric
-> - [ ] Enhancing Motion Planning: Curvature in the Motion Planning -------- Ric
+> - [ ] Enhancing Motion Planning: Curvature in the Motion Planning -------- Ric\
 > EXECUTION
 > TROUBLESHOOTING
 
 > **Milestone 03 - Building a Well using DENIRO (Dual Arm)**
-> SUMMARY
+> SUMMARY\
 > EXPLANATION
-> - [ ] Simultaneous Placement of Bricks (Multithreading) -------- Jacob
+> - [ ] Simultaneous Placement of Bricks (Multithreading) -------- Jacob\
 > CHALLENGES
-> - [ ] Well Plan and Brick Positions for Dual Arm -------- Hugo/Omer
-> EXECUTION
+> - [ ] Well Plan and Brick Positions for Dual Arm -------- Hugo/Omer\
+> EXECUTION\
 > TROUBLESHOOTING
 
 > **Milestone 04 - Image Perception**
@@ -64,8 +64,8 @@ DENIRO is a Baxter robot which belongs to the Design Engineering department at I
 > - [ ] Setting Up the Camera -------- Pilar
 > - [ ] Taking and Saving a Picture -------- Omer
 > - [ ] Image Recognition - Position and Angle of the Spawned Brick -------- Oli
-> CHALLENGES
-> EXECUTION
+> CHALLENGES\
+> EXECUTION\
 > TROUBLESHOOTING
 >   - [ ] Troubleshooting: Camera Not Working on Physical Robot -------- Pilar
 >   - [ ] Troubleshooting: Camera Not Working on Simulator -------- Pilar
@@ -73,13 +73,13 @@ DENIRO is a Baxter robot which belongs to the Design Engineering department at I
 >   - [ ] Troubleshooting: Image Not Processed -------- Oli
 
 > **Milestone 05 - Error Detection and Failure Recovery when Picking a Brick**
-> SUMMARY
+> SUMMARY\
 > EXPLANATION
 > - [ ] Solution 1: Force Sensing -------- Ryan
 > - [ ] Solution 2: Distance Gripped -------- Ric
 > - [ ] Solution Implementation -------- Ric
-> CHALLENGES
-> EXECUTION
+> CHALLENGES\
+> EXECUTION\
 > TROUBLESHOOTING
 
 ### 02 Project Specifications and Requirements
@@ -93,7 +93,7 @@ DENIRO is a Baxter robot which belongs to the Design Engineering department at I
 > - [ ] Exploring possible solutions / Giving up on MoveIt
 
 > **Trial 02 - New IK Python Code** -------- Ryan
-> - [ ] [Redundancy Reduction & Pseudoinverse Jacobian](https://github.com/pz716/DE3-ROB1-Building-a-well-with-DENIRO/wiki/03_3_C---Redundancy-Reduction)
+> - [ ] Redundancy Reduction & Pseudoinverse Jacobian
 
 ### 04 Project Management
 
