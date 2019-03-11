@@ -49,7 +49,7 @@ Blah blah blah
 >
 >CHALLENGES
 >- [x] Solving Overshooting when Moving to the Spawn Location (Single Arm) -------- Ric
->- [ ] Enhancing Motion Planning: Curvature in the Motion Planning -------- Ric
+>- [ ] Motion Planning: Curvature in the Motion Planning -------- Ric
 >
 >EXECUTION
 >
