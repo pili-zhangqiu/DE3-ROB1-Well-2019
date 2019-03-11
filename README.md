@@ -21,6 +21,7 @@ DENIRO is a Baxter robot which belongs to the Design Engineering department at I
 > - [ ] Setting up and Connecting to Baxter
 
 ### 02 Project Development
+
 > **Milestone 01 - Running Pick and Place in Gazebo**
 > SUMMARY
 > EXPLANATION
@@ -92,7 +93,7 @@ DENIRO is a Baxter robot which belongs to the Design Engineering department at I
 > - [ ] Exploring possible solutions / Giving up on MoveIt
 
 > **Trial 02 - New IK Python Code** -------- Ryan
-> - [x] [Redundancy Reduction & Pseudoinverse Jacobian](https://github.com/pz716/DE3-ROB1-Building-a-well-with-DENIRO/wiki/03_3_C---Redundancy-Reduction)
+> - [ ] [Redundancy Reduction & Pseudoinverse Jacobian](https://github.com/pz716/DE3-ROB1-Building-a-well-with-DENIRO/wiki/03_3_C---Redundancy-Reduction)
 
 ### 04 Project Management
 
