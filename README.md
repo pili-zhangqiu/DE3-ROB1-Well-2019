@@ -22,17 +22,17 @@ Blah blah blah
 
 ### 02 Project Development
 **Milestone 01 - Running Pick and Place in Gazebo**
-SUMMARY  
-EXPLANATION  
-- [ ] Pick and Place Demo scripts -------- Jacob  
-- [ ] Editing the code to spawn the brick instead of a block -------- Hugo   
-CHALLENGES  
-- [ ] Correcting brick physics (CoM and friction) -------- Hugo  
-- [ ] Gripper width -------- Pilar  
-- [ ] Stopping DENIRO's unwanted movement -------- Jacob  
-EXECUTION  
-- [ ] Running demo in Gazebo -------- Ric  
-TROUBLESHOOTING  
+>SUMMARY  
+>EXPLANATION  
+>- [ ] Pick and Place Demo scripts -------- Jacob  
+>- [ ] Spawning Brick Function -------- Jacob   
+>CHALLENGES  
+>- [ ] Correcting brick physics (CoM and friction) -------- Hugo  
+>- [ ] Gripper width -------- Pilar  
+>- [ ] Stopping DENIRO's unwanted movement -------- Jacob  
+>EXECUTION  
+>- [ ] Running demo in Gazebo -------- Ric  
+>TROUBLESHOOTING  
 
 **Milestone 02 - Building a Well using DENIRO (Single Arm)**
 > - SUMMARY
