@@ -4,7 +4,7 @@ DENIRO is a Baxter robot which belongs to the Design Engineering department at I
 
 ## About the project
 (Blah blah blah)
-
+---
 ## The Team
 - Hugo Hasted
 - Jacob Tan
@@ -13,7 +13,7 @@ DENIRO is a Baxter robot which belongs to the Design Engineering department at I
 - Omer Quads
 - Richard Rui Zhang
 - Pilar Zhang Qiu
-
+---
 ## Contents
 ### 01 Setting Up Workstation
 > **Setting up DENIRO & Worsktation** -------- Ric
@@ -81,9 +81,9 @@ DENIRO is a Baxter robot which belongs to the Design Engineering department at I
 > CHALLENGES\
 > EXECUTION\
 > TROUBLESHOOTING
-
+---
 ### 02 Project Specifications and Requirements
-
+---
 ### 03 Trials and Errors - Working with Franka Emika Panda
 > **Trial 01 - Using MoveIt with the RViz & Gazebo Implementation** -------- Pilar
 > - [ ] Introduction to MoveIt
@@ -94,9 +94,9 @@ DENIRO is a Baxter robot which belongs to the Design Engineering department at I
 
 > **Trial 02 - New IK Python Code** -------- Ryan
 > - [ ] Redundancy Reduction & Pseudoinverse Jacobian
-
+---
 ### 04 Project Management
-
+---
 ## Useful Resources
-
+---
 ## Bibliography
