@@ -22,10 +22,10 @@ Blah blah blah
 
 ### 02 Project Development
 **Milestone 01 - Running Pick and Place in Gazebo**
->SUMMARY  
->EXPLANATION  
+>SUMMARY \
+>EXPLANATION \
 >- [ ] Pick and Place Demo scripts -------- Jacob  
->- [ ] Spawning Brick Function -------- Jacob   
+>- [ ] Editing the code to spawn the brick instead of a block -------- Hugo   
 >CHALLENGES  
 >- [ ] Correcting brick physics (CoM and friction) -------- Hugo  
 >- [ ] Gripper width -------- Pilar  
