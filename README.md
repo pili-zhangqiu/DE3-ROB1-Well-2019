@@ -27,24 +27,24 @@ Blah blah blah
 >EXPLANATION 
 >- [ ] Pick and Place Demo scripts -------- Jacob  
 >- [ ] Editing the code to spawn the brick instead of a block -------- Hugo   
->- [ ] Gripper width -------- Pilar  
->- [ ] Correcting brick physics (CoM and friction) -------- Hugo  
->- [ ] Stopping DENIRO's unwanted movement -------- Jacob   
 >
 >TROUBLESHOOTING  
+>- [ ] Adjusting Gripper Width Settings-------- Pilar
+>- [ ] Correcting brick physics (CoM and friction) -------- Hugo  
+>- [ ] Stopping DENIRO's unwanted movement -------- Jacob   
 
 **Milestone 02 - Building a Well using DENIRO (Single Arm)**
 >SUMMARY AND EXECUTION
 >
 >EXPLANATION
 >- [ ] Motion Basics
->   - [ ] Well Plan and Brick Positions for Single Arm -------- Hugo/Omer
+>   - [ ] Well Structure for Single Arm -------- Hugo/Omer
 >   - [ ] IK Motion Planning for Single Arm -------- Ryan
 >   - [ ] Quaternion - Mapping the cartesian space to the joint space / Finding the right quaternion -------- Jacob
 >   - [ ] Redundancy Reduction -------- Ryan
 >- [x] Solving Overshooting when Moving to the Spawn Location -------- Ric
 >- [x] Curvature in the Motion Planning -------- Ric
->- [x] Failure to Pick up a Brick and Recovery
+>- [x] Failure to Pick up a Brick and Recovery (Will just merge them both in one)
 >   - [ ] Approach 1: Force Sensing -------- Ryan
 >   - [ ] Approach 2: Gripper Distance -------- Ric
 >
@@ -54,13 +54,13 @@ Blah blah blah
 >SUMMARY AND EXECUTION
 >
 >EXPLANATION
->- [ ] Simultaneous Placement of Bricks (Multithreading) -------- Jacob
->- [ ] Well Plan and Brick Positions for Dual Arm -------- Hugo/Omer
+>- [ ] Using Multithreading to Use Two Arms -------- Jacob
+>- [ ] Well Structure for Dual Arms -------- Hugo/Omer
 >
 >TROUBLESHOOTING
 
 **Milestone 04 - Image Perception**
->SUMMARY
+>SUMMARY AND EXECUTION
 >
 >- [ ] General Overview - Image Perception for the Spawn Location -------- Oli
 >
@@ -69,23 +69,17 @@ Blah blah blah
 >- [ ] Taking and Saving a Picture -------- Omer
 >- [ ] Image Recognition - Position and Angle of the Spawned Brick -------- Oli
 >
->EXECUTION
->
 >TROUBLESHOOTING
->- [ ] Troubleshooting: Camera Not Working on Physical Robot -------- Pilar
->- [ ] Troubleshooting: Camera Not Working on Simulator -------- Pilar
->- [ ] Troubleshooting: Removing the Gripper -------- Oli
->- [ ] Troubleshooting: Image Not Processed -------- Oli
+>- [ ] Camera Not Working on Physical Robot -------- Pilar
+>- [ ] Camera Not Working on Simulator -------- Pilar
+>- [ ] Removing the Gripper from the Camera Image -------- Oli
+>- [ ] Failure to Run Image Recognition on Camera Image-------- Oli
 
 ### 02 Project Specifications and Requirements
 
 ### 03 Trials and Errors - Working with Franka Emika Panda
 **Trial 01 - Using MoveIt with the RViz & Gazebo Implementation** -------- Pilar
->- [ ] Introduction to MoveIt
->- [ ] Running the Pick and Place demo in RViz
->- [ ] Error when executing the RViz trajectory in Gazebo
->- [ ] Debugging
->- [ ] Exploring possible solutions / Giving up on MoveIt
+>- [ ] Failure when executing the RViz trajectory in Gazebo
 
 **Trial 02 - New IK Python Code** -------- Ryan
 >- [ ] Redundancy Reduction & Pseudoinverse Jacobian
