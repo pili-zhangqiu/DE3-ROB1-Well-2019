@@ -43,15 +43,15 @@ Blah blah blah
 >
 >EXPLANATION
 >- [ ] Motion Basics
-> - [ ] Well Plan and Brick Positions for Single Arm -------- Hugo/Omer
-> - [ ] IK Motion Planning for Single Arm -------- Ryan
-> - [ ] Quaternion - Mapping the cartesian space to the joint space / Finding the right quaternion -------- Jacob
-> - [ ] Redundancy Reduction -------- Ryan
+>  - [ ] Well Plan and Brick Positions for Single Arm -------- Hugo/Omer
+>  - [ ] IK Motion Planning for Single Arm -------- Ryan
+>  - [ ] Quaternion - Mapping the cartesian space to the joint space / Finding the right quaternion -------- Jacob
+>  - [ ] Redundancy Reduction -------- Ryan
 >- [x] Solving Overshooting when Moving to the Spawn Location -------- Ric
 >- [x] Curvature in the Motion Planning -------- Ric
 >- [x] Failure to Pick up a Brick and Recovery
-> - [ ] Approach 1: Force Sensing -------- Ryan
-> - [ ] Approach 2: Gripper Distance -------- Ric
+>  - [ ] Approach 1: Force Sensing -------- Ryan
+>  - [ ] Approach 2: Gripper Distance -------- Ric
 >
 >EXECUTION
 >
