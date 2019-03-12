@@ -42,14 +42,16 @@ Blah blah blah
 >SUMMARY
 >
 >EXPLANATION
->- [ ] Well Plan and Brick Positions for Single Arm -------- Hugo/Omer
->- [ ] IK Motion Planning for Single Arm -------- Ryan
->- [ ] Quaternion - Mapping the cartesian space to the joint space / Finding the right quaternion -------- Jacob
->- [ ] Redundancy Reduction -------- Ryan
->
->CHALLENGES
->- [x] Solving Overshooting when Moving to the Spawn Location (Single Arm) -------- Ric
->- [x] Motion Planning: Curvature in the Motion Planning -------- Ric
+>- [ ] Motion Basics
+> - [ ] Well Plan and Brick Positions for Single Arm -------- Hugo/Omer
+> - [ ] IK Motion Planning for Single Arm -------- Ryan
+> - [ ] Quaternion - Mapping the cartesian space to the joint space / Finding the right quaternion -------- Jacob
+> - [ ] Redundancy Reduction -------- Ryan
+>- [x] Solving Overshooting when Moving to the Spawn Location -------- Ric
+>- [x] Curvature in the Motion Planning -------- Ric
+>- [x] Failure to Pick up a Brick and Recovery
+> - [ ] Approach 1: Force Sensing -------- Ryan
+> - [ ] Approach 2: Gripper Distance -------- Ric
 >
 >EXECUTION
 >
@@ -87,19 +89,6 @@ Blah blah blah
 >- [ ] Troubleshooting: Camera Not Working on Simulator -------- Pilar
 >- [ ] Troubleshooting: Removing the Gripper -------- Oli
 >- [ ] Troubleshooting: Image Not Processed -------- Oli
-
-**Milestone 05 - Error Detection and Failure Recovery when Picking a Brick**
->SUMMARY
->
->EXPLANATION
->- [ ] Solution 1: Force Sensing -------- Ryan
->- [x] Solution 2: Distance Gripped and implimentation -------- Ric
->
->CHALLENGES
->
->EXECUTION
->
->TROUBLESHOOTING
 
 ### 02 Project Specifications and Requirements
 
