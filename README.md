@@ -22,51 +22,40 @@ Blah blah blah
 
 ### 02 Project Development
 **Milestone 01 - Running Pick and Place in Gazebo**
->SUMMARY 
+>SUMMARY AND EXECUTION -------- Ric
 >
 >EXPLANATION 
 >- [ ] Pick and Place Demo scripts -------- Jacob  
 >- [ ] Editing the code to spawn the brick instead of a block -------- Hugo   
->
->CHALLENGES  
->- [ ] Correcting brick physics (CoM and friction) -------- Hugo  
 >- [ ] Gripper width -------- Pilar  
->- [ ] Stopping DENIRO's unwanted movement -------- Jacob  
->
->EXECUTION  
->- [x] Running demo in Gazebo -------- Ric  
+>- [ ] Correcting brick physics (CoM and friction) -------- Hugo  
+>- [ ] Stopping DENIRO's unwanted movement -------- Jacob   
 >
 >TROUBLESHOOTING  
 
 **Milestone 02 - Building a Well using DENIRO (Single Arm)**
->SUMMARY
+>SUMMARY AND EXECUTION
 >
 >EXPLANATION
 >- [ ] Motion Basics
->  - [ ] Well Plan and Brick Positions for Single Arm -------- Hugo/Omer
->  - [ ] IK Motion Planning for Single Arm -------- Ryan
->  - [ ] Quaternion - Mapping the cartesian space to the joint space / Finding the right quaternion -------- Jacob
->  - [ ] Redundancy Reduction -------- Ryan
+>   - [ ] Well Plan and Brick Positions for Single Arm -------- Hugo/Omer
+>   - [ ] IK Motion Planning for Single Arm -------- Ryan
+>   - [ ] Quaternion - Mapping the cartesian space to the joint space / Finding the right quaternion -------- Jacob
+>   - [ ] Redundancy Reduction -------- Ryan
 >- [x] Solving Overshooting when Moving to the Spawn Location -------- Ric
 >- [x] Curvature in the Motion Planning -------- Ric
 >- [x] Failure to Pick up a Brick and Recovery
->  - [ ] Approach 1: Force Sensing -------- Ryan
->  - [ ] Approach 2: Gripper Distance -------- Ric
->
->EXECUTION
+>   - [ ] Approach 1: Force Sensing -------- Ryan
+>   - [ ] Approach 2: Gripper Distance -------- Ric
 >
 >TROUBLESHOOTING
 
 **Milestone 03 - Building a Well using DENIRO (Dual Arm)**
->SUMMARY
+>SUMMARY AND EXECUTION
 >
 >EXPLANATION
 >- [ ] Simultaneous Placement of Bricks (Multithreading) -------- Jacob
->
->CHALLENGES
 >- [ ] Well Plan and Brick Positions for Dual Arm -------- Hugo/Omer
->
->EXECUTION
 >
 >TROUBLESHOOTING
 
@@ -79,8 +68,6 @@ Blah blah blah
 >- [ ] Setting Up the Camera -------- Pilar
 >- [ ] Taking and Saving a Picture -------- Omer
 >- [ ] Image Recognition - Position and Angle of the Spawned Brick -------- Oli
->
->CHALLENGES
 >
 >EXECUTION
 >
