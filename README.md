@@ -82,4 +82,5 @@ Structuring large Python projects
 
 ### Getting Started with ROS
 To 'get started' with learning ROS, you may find doing the following helps you to understand ROS better:
-* In your home directory, ensure you have [set up a complete catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)  * Within that workspace, [create a catkin package](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
+* In your home directory, ensure you have [set up a complete catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)     
+* Within that workspace, [create a catkin package](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
