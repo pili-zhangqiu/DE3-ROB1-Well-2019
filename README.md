@@ -11,38 +11,38 @@ DE NIRO is a Baxter robot which belongs to the Design Engineering department at 
 
 ## Contents
 ### 01 Setting Up Workstation
-[[Setting up Gazebo|https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Setting-Up-Gazebo]]  
-[[Setting up DE NIRO|https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Setting-up-Deniro]]  
+[Setting up Gazebo](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Setting-Up-Gazebo)    
+[Setting up DE NIRO](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Setting-up-Deniro)    
 
 ### 02 Milestones
 **[[Milestone 01 - Building a Well in Gazebo| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Milestone-01:-Building-a-Well-in-Gazebo]]**
->[[Pick and Place| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Pick-and-Place]]  
->[[Spawning Models| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Spawning-Models]]  
->[[Adjusting the Gripper's Width| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Adjusting-the-Gripper's-Width]]  
->[[Correcting Brick Model Physics| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Correcting-Brick-Model-Physics]]  
->[[Stopping Unwanted Movement of DE NIRO| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Stopping-Unwanted-Movement-of-DE-NIRO]]  
+>[Pick and Place](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Pick-and-Place)    
+>[Spawning Models](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Spawning-Models)    
+>[Adjusting the Gripper's Width](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Adjusting-the-Gripper's-Width)    
+>[Correcting Brick Model Physics](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Correcting-Brick-Model-Physics)    
+>[Stopping Unwanted Movement of DE NIRO](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Stopping-Unwanted-Movement-of-DE-NIRO)    
 
 **[[Milestone 02 - Building a Well with Baxter| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Milestone-02:-Building-a-Well-with-Baxter]]**
->[[Well Structure for Single Arm| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Well-Structure-for-Single-Arm]]  
->[[Inverse Kinematics and Redundancy Reduction| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Inverse-Kinematics-and-Redundancy-Reduction]]  
->[[Quaternion| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Quaternion]]  
->[[Solving Overshooting| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Solving-Overshooting]]  
->[[Motion Planning| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Motion-Planning]]  
->[[Brick Grip Detection|https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Brick-Grip-Detection]]  
+>[Well Structure for Single Arm](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Well-Structure-for-Single-Arm)    
+>[Inverse Kinematics and Redundancy Reduction](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Inverse-Kinematics-and-Redundancy-Reduction)    
+>[Quaternion](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Quaternion)    
+>[Solving Overshooting](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Solving-Overshooting)    
+>[Motion Planning](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Motion-Planning)    
+>[Brick Grip Detection](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Brick-Grip-Detectio)    
 
 **[[Milestone 03 - Building a Well with Baxter Using Dual Arms| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Milestone-03:-Building-a-Well-with-Baxter-Using-Dual-Arms]]**
->[[Dual Arm Control| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Dual-Arm-Control]]  
->[[Well Structure for Dual Arms| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Well-Structure-for-Dual-Arm]]  
+>[Dual Arm Control](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Dual-Arm-Control)    
+>[Well Structure for Dual Arms](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Well-Structure-for-Dual-Arm)    
 
 **[[Milestone 04 - Building a Well with Baxter using Image Recognition|https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Milestone-04:-Building-a-Well-with-Baxter-Using-Image-Perception]]**
->[[Camera Settings in Baxter|https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Understanding-the-Camera-Settings-in-Baxter]]  
->[[Opening the Camera Feed|https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Opening-the-Camera-Feed-in-DENIRO]]  
->[[Taking a Photo Using Baxter Cameras| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Taking-a-Picture-Using-Baxter-Cameras]]  
->[[Image Analysis| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Image-Analysis]]  
+>[Camera Settings in Baxter](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Understanding-the-Camera-Settings-in-Baxter)    
+>[Opening the Camera Feed](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Opening-the-Camera-Feed-in-DENIRO)    
+>[Taking a Photo Using Baxter Cameras](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Taking-a-Picture-Using-Baxter-Cameras)    
+>[Image Analysis](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Image-Analysis)    
 
 ### 04 Additional Research - Franka Emika Panda Robot
->[[Failure when running Franka Panda in Gazebo|https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Failure-Running-Panda-in-Gazebo]]    
->[[Redundancy Reduction| https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Redundancy-Reduction]]
+>[Failure when running Franka Panda in Gazebo](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Failure-Running-Panda-in-Gazebo)    
+>[Redundancy Reduction](https://github.com/pz716/DE3-ROB1-Well-2019/wiki/Redundancy-Reduction)    
 
 ---
 ## The Team
@@ -82,5 +82,4 @@ Structuring large Python projects
 
 ### Getting Started with ROS
 To 'get started' with learning ROS, you may find doing the following helps you to understand ROS better:
-* In your home directory, ensure you have [[set up a complete catkin workspace|http://wiki.ros.org/catkin/Tutorials/create_a_workspace]].
-* Within that workspace, [[create a catkin package|http://wiki.ros.org/ROS/Tutorials/CreatingPackage]].
+* In your home directory, ensure you have [set up a complete catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace)  * Within that workspace, [create a catkin package](http://wiki.ros.org/ROS/Tutorials/CreatingPackage)
