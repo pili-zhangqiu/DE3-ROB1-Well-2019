@@ -1,5 +1,4 @@
-# DE3-ROB1 Building a well with DENIRO
-## Design Engineering MEng - 2019
+# DE3-ROB1 Building a well with DENIRO | Design Engineering MEng - 2019
 
 ## About the Project
 DE NIRO is a Baxter robot which belongs to the Design Engineering department at Imperial College London. This repository contains the code and documentation required to understand how to do the following:
